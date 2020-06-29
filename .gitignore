@@ -1,0 +1,13 @@
+# Project exclude paths
+/target/
+.idea/.gitignore
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/lessc/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/uiDesigner.xml
+src/test/
+.idea/vcs.xml
