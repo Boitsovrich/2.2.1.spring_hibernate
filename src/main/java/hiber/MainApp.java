@@ -18,15 +18,15 @@ public class MainApp {
       UserService userService = context.getBean(UserService.class);
 
 
-      Car julka = new Car("Kopek", "1");
-      Car lada = new Car("восьмерка", "8");
-      Car zpr = new Car("Zpr", "4");
-      Car kmz = new Car("Kmz", "13");
+      Car julka = new Car("Lada", "1");
+      Car lada = new Car("rols royals", "Cullinan");
+      Car zpr = new Car("Mers", "SLK");
+      Car kmz = new Car("Geleg", "505");
 
-      User user01 = new User("User1", "Lastname1", "user1@mail.ru");
-      User user02 = new User("User2", "Lastname2", "user2@mail.ru");
-      User user03 = new User("User3", "Lastname3", "user3@mail.ru");
-      User user04 = new User("User4", "Lastname4", "user4@mail.ru");
+      User user01 = new User("Pasha", "Bikov", "bik@mail.ru");
+      User user02 = new User("Sasha", "Boitsov", "user2@mail.ru");
+      User user03 = new User("Nikolay", "Zvyagincev", "zvon@mail.ru");
+      User user04 = new User("Nikolay", "Chehov", "Cheh@gmail.ru");
 
       julka.setId(user01.getId());
       lada.setId(user02.getId());
